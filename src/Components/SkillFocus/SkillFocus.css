@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../../assets/Roboto/Roboto-Bold.ttf);
+}
+  
+:root {
+    --primary-color: #26A65B;
+    --secondary-color: #ffffff;
+    --link-hover: #045CB4;
+    --peach-yellow: #F9DCAD; 
+    --accordion: #f1f1f1;
+    --accordion-hover: #444444;
+    --other-colors: #5D4FFF;
+    --more-colors: #7A7A7A;
+   --more-colors-2: #54595F;
+   --more-colors-3: #6EC1E4;
+   --some-colors: #f2fff7;
+  
+}
+
+.focus-container
+{
+    border: 1px solid var(--secondary-color);
+    margin: 2rem;
+    padding-top: 2rem;
+    background-color: var(--some-colors);
+}
+
+.focus-mission h1
+{
+    border: 1px solid var(--some-colors);
+    padding: 2rem;
+    color: var(--primary-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 1rem;
+}
+
+.focus-mission p
+{
+    padding: 0 2rem;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 1rem;
+    line-height: 1.5rem;
+}
+
+.focus-table
+{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    margin-bottom: 5rem;
+}
+
+.focus-table-list
+{
+    border: 1px solid var(--some-colors);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 1rem;
+    padding: 1rem;
+    margin: 0 3rem;
+}
+
+.focus-table-list h4
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem; 
+}
+
+.skill-points-icon
+{
+    padding-right: 1rem;
+}

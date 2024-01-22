@@ -1,0 +1,83 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../../assets/Roboto/Roboto-Bold.ttf);
+}
+
+:root {
+  --primary-color: #26A65B;
+  --secondary-color: #ffffff;
+  --link-hover: #045CB4;
+  --peach-yellow: #F9DCAD; 
+  --accordion: #f1f1f1;
+  --accordion-hover: #444444;
+  --other-colors: #5D4FFF;
+  --more-colors: #f2fff7;
+}
+
+.mission-container
+{
+  display: flex;
+  flex-direction: row; 
+  border: 1px solid var(--secondary-color);
+  border-radius: 0.5rem;
+  text-overflow: ellipsis;
+  padding: 0.2rem;
+  margin: 1rem;
+  margin-top: 2.3rem;
+}
+
+.project-mission 
+{
+  border: 1px solid #ffffff;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin-right: 7rem;
+}
+
+.project-mission h1
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2.8rem;
+  color: var(--primary-color);
+
+}
+
+.project-mission p
+{
+  width: 27rem;
+  text-align: left;
+  margin-top: 2rem;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  word-wrap: break-word;
+  line-height: 1.5rem;
+}
+
+.fanPhoto img
+{
+  border: 1px solid #ffffff;
+  border-radius: 0.5rem;
+  margin: 3rem 0;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  z-index: 30;
+}
+
+.fanPhoto :hover
+{
+  opacity: 1;
+  width: 530px;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: width 0.5s ease-in-out;
+  -ms-transition: width 0.5s ease-in-out;
+  -o-transition: width 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out; 
+}
+
+
+
+

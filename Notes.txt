@@ -1,0 +1,57 @@
+NITDA Logo
+width: 250; height: 72;
+
+Font Family: Roboto
+
+Colors:
+Primary: #6EC1E4;
+Secondary: #54595F;
+Text: #7A7A7A;
+Header: #26A65B;
+
+/*
+ while(setLikes != Like && likeCount < 10)
+    {
+      let likeCount = 1;
+      setLikes = prompt("Thank You for Liking this photo!")
+      likeCount++;
+      }
+      do{
+        
+        } while(Likes != Like)
+        alert("");
+    }
+
+*/
+
+
+
+Creating new REPO:
+echo "# Contacts-App" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/JayzStudios/Contacts-App.git
+git push -u origin main
+
+
+Pushing  existing REPO:
+git remote add origin https://github.com/JayzStudios/Contacts-App.git
+git branch -M main
+git push -u origin main
+
+subsequent changes:
+git add .
+git status
+git commit -m "name/message"
+git push origin main
+
+
+Note: GitHub
+Merge Conflicts - dealt by code owner or project manager
+API - Application Programming Interface
+
+
+mapping each item to an array.
+

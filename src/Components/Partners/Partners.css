@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../../assets/Roboto/Roboto-Bold.ttf);
+}
+  
+:root {
+    --primary-color: #26A65B;
+    --secondary-color: #ffffff;
+    --link-hover: #045CB4;
+    --peach-yellow: #F9DCAD; 
+    --accordion: #f1f1f1;
+    --accordion-hover: #444444;
+    --other-colors: #5D4FFF;
+    --greenish: #29562a;
+    --more-colors: #f2fff7;
+}
+
+.partners-container
+{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    margin-top: 3rem;
+    border: 1px solid var(--secondary-color);
+    background-color: var(--greenish);
+
+}
+
+.partners-container h1
+{
+    margin: 1rem;
+    padding: 1rem;
+    margin-left: 25rem;
+    width: 20rem;
+    color: var(--secondary-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.partners-container p
+{
+    margin-left: 18rem;
+    color: var(--secondary-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.6rem;
+}
+
+.button-class
+{
+    margin-left: 28rem;
+}
+
+.partners-button
+{
+   
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 0.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    padding: 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.playIcon{
+    padding-right: 1rem;
+}

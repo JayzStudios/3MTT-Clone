@@ -1,0 +1,156 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../../assets/Roboto/Roboto-Bold.ttf);
+}
+  
+:root {
+    --primary-color: #26A65B;
+    --secondary-color: #ffffff;
+    --tertiary-color: #000000;
+    --link-hover: #045CB4;
+    --peach-yellow: #F9DCAD; 
+    --accordion: #f1f1f1;
+    --accordion-hover: #444444;
+    --other-colors: #5D4FFF;
+    --more-colors: #7A7A7A;
+   --more-colors-2: #54595F;
+   --more-colors-3: #6EC1E4;
+   --some-colors: #f2fff7;
+   --apply: #deffeb;
+  --apply2: #ffeac7;
+}
+
+.apply-container
+{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--secondary-color);
+  margin: 2rem;
+  margin-top: 1rem;
+  background-color: var(--secondary-color);
+}
+
+.apply-container h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 1rem;
+    margin-top: 3rem;
+    margin: 1rem;
+    padding: 1rem;
+    color: var(--primary-color);
+}
+
+.apply-container p
+{
+    margin: 1rem;
+    padding: 1rem;
+    width: 40rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 1rem;
+    text-align: left;
+    line-height: 1.6rem;
+}
+
+.apply-border-box
+{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--secondary-color);
+    margin: 1rem;
+    padding: 1rem;
+    
+}
+
+.apply-lady-lecturer
+{
+    border: 1px solid var(--secondary-color);
+    border-radius: 1rem;
+    background-color: var(--apply2);
+    margin-right: 3rem;
+}
+
+.apply-lady-lecturer img
+{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.apply-lady-lecturer h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    font-weight: 1rem;
+    color: var(--primary-color);
+    margin: 1rem;
+    padding: 0.7rem;
+}
+
+.apply-lady-lecturer p
+{   
+    width: 26rem;
+    margin: 1rem;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 1rem;
+    text-align: left;
+    line-height: 1.6rem;
+}
+
+.apply-man-lecturer
+{
+    border: 1px solid var(--secondary-color);
+    border-radius: 1rem;
+    background-color: var(--apply);
+    margin-right: 3rem;
+}
+
+.apply-man-lecturer img
+{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.apply-man-lecturer h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    font-weight: 1rem;
+    color: var(--primary-color);
+    margin: 1rem;
+    padding: 0.7rem;
+}
+
+.apply-man-lecturer p
+{   
+    width: 29rem;
+    margin: 1rem;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 1rem;
+    text-align: left;
+    line-height: 1.6rem;
+}
+
+.apply-here-button
+{
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 0.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    padding: 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.playIcon{
+    padding-right: 1rem;
+}

@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../../assets/Roboto/Roboto-Bold.ttf);
+}
+  
+:root {
+    --primary-color: #26A65B;
+    --secondary-color: #ffffff;
+    --link-hover: #045CB4;
+    --peach-yellow: #F9DCAD; 
+    --accordion: #f1f1f1;
+    --accordion-hover: #444444;
+    --other-colors: #5D4FFF;
+    --more-colors: #f2fff7;
+  
+}
+
+.first-phase-container
+{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid var(--secondary-color);
+  margin: 2rem;
+  margin-top: 1rem;
+  background-color: var(--primary-color);
+}
+
+.first-phase-project
+{
+    margin: 1rem;
+}
+
+.first-phase-project h1 
+{
+    color: #ffffff;
+    width: 30rem;
+    margin: 2rem;
+    margin-bottom: 12rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 2.5rem;
+}
+
+.first-phase-project p
+{
+    text-align: left;
+    color: #ffffff;
+    width: 28rem;
+    margin: 2rem;
+    margin-bottom: 25rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+.first-phase-img
+{
+    margin: 2rem;
+    margin-top: 15rem;
+    margin-left: 2rem;
+}
+
+
+.first-phase-img p
+{
+    text-align: left;
+    font-size: 1.1rem;
+    width: 25rem;
+    color: var(--secondary-color);
+    margin: 2rem;
+    margin-top: 18rem;
+    line-height: 1.5rem;
+}
+
+.first-phase-img-hijab
+{
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
